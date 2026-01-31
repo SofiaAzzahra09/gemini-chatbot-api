@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cosmic Buddy Bot</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌌</text></svg>">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div id="splash-screen" class="splash-screen">
+    <div class="splash-content">
+      <div class="galaxy-icon">💫</div>
+      <h1 class="splash-title">Cosmic Buddy</h1>
+      <p class="splash-subtitle">Your Friendly Space Companion</p>
+      <div class="stars">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Chat Container -->
+  <div id="chat-container" class="chat-container" style="display: none;">
+    <div class="header">
+      <h1>🌌 Cosmic Buddy</h1>
+      <p class="subtitle">Your Intergalactic Chat Pal</p>
+    </div>
+    <div id="chat-box" class="chat-box"></div>
+    <form id="chat-form" class="chat-form">
+      <input type="text" id="user-input" placeholder="Send a message to the cosmos..." autocomplete="off" required />
+      <button type="submit" class="send-button">✈️</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

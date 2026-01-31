@@ -56,7 +56,9 @@ GEMINI_API_KEY=your_api_key_here
 
 ### 4. Jalankan Server
 ```bash
-npm start
+node index.js
+Pastikan muncul:
+Server ready on http://localhost:3000
 ```
 
 Server akan running di `http://localhost:3000`
